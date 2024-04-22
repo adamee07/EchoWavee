@@ -1,0 +1,393 @@
+/* SLOW AND REVERB STYLE SHEET */
+
+/* CELL PHONE STYLES */
+
+.body {
+    overflow: hidden;
+    /*formatting for webpage*/
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+/*
+    .footer {
+    /*formatting for footer*/
+
+/*
+    width: 100%;
+    height: 11.9vh;
+    padding: 0;
+    margin: 0;
+    background: #000000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: snow; 
+    text-align: center;
+    font-family: 'Times New Roman'; 
+    letter-spacing: 1px; 
+    font-size:10px;
+}
+    */
+
+#footerDiv1 {
+    /*formatting for footer*/
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #000000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: snow;
+    text-align: center;
+    font-family: 'Times New Roman';
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+@media (max-width: 500px) {
+    #acid {
+        font-size: 16px;
+        letter-spacing: normal;
+        font-family: 'poppins', sans-serif;
+    }
+}
+.hero {
+    /* Formatting for webpage items */
+    width: 100%;
+    height: 100vh;
+    background-image: url('background.png'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#acid {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Impact, fantasy;
+    letter-spacing: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 500px) {
+    #acid {
+        font-size: 16px;
+        letter-spacing: normal;
+        font-family: 'poppins', sans-serif;
+    }
+}
+
+#acidInfo {
+    margin: 2px;
+    color: snow;
+    text-align: center;
+    font-family: 'Times New Roman';
+    letter-spacing: 0px;
+    font-size: 14px;
+}
+
+@media (max-width: 500px) {
+    #acidInfo {
+        font-size: 12px;
+    }
+}
+
+#inputFile {
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    /* Add custom styles for the audio player */
+    color: #000000;
+    /* Change the color of the controls */
+    background-color: #000000;
+    /* Change the background color of the audio player */
+    font-size: 15px;
+    /* Increase the font size of the controls */
+    padding: 3px;
+    /* Add some padding around the controls */
+    margin-top: 15px;
+    position: relative;
+}
+
+.music {
+    /*formatting for music player*/
+    align-self: center;
+    width: 450px;
+    max-width: 99%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0 0 20px rgb(128, 128, 128);
+    background: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    background-image: linear-gradient(to left, rgb(14, 106, 168), #ffffff);
+    margin-top: 5px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .music {
+        width: 350px;
+        max-width: 100%;
+        padding: 5px;
+        border-radius: 3px;
+        margin-top: 5px;
+    }
+}
+
+#presets {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    /* Add custom styles for the audio player */
+    color: #ffffff;
+    /* Change the color of the controls */
+    background-color: #000000;
+    /* Change the background color of the audio player */
+    font-size: 12px;
+    /* Increase the font size of the controls */
+    padding: 3px;
+    /* Add some padding around the controls */
+    text-align: center;
+    margin-top: 10px;
+}
+
+#songLengthDiv {
+    color: #ffffff;
+    /* Change the color of the controls */
+    font-size: 12px;
+    /* Increase the font size of the controls */
+    text-align: center;
+    margin-top: 10px;
+}
+
+#impulseResponseFile {
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+@media (max-width: 500px) {
+    .track {
+        margin-top: 0px;
+    }
+}
+
+.track img {
+    width: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#acidPic {
+    width: 100px;
+    cursor: pointer;
+}
+
+.track div {
+    flex: 1;
+}
+
+.volSliderBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 60px;
+    margin-top: 0px;
+}
+
+#sliderVol {
+    width: 50px;
+    height: 10px;
+    transform: rotate(270deg);
+    margin-left: 0px;
+    color: red;
+    background-color: rgb(255, 165, 0);
+}
+
+#line {
+    width: 80%;
+    color: #000;
+    background-color: #000;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(23, 161, 219), #ffffff);
+    height: 4px;
+    border: none;
+}
+
+@media (max-width: 500px) {
+    #line {
+        width: 80%;
+        margin-top: 5px;
+        height: 4px;
+    }
+}
+
+.slider-grid {
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    align-content: start;
+}
+
+.slider {
+    /*formatting for bottom sliders*/
+    width: 100px;
+    height: 100px;
+    transform: rotate(270deg);
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* changing thumb size in all browsers */
+
+#slider1-value {
+    color: black;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+    #slider1-value {
+        font-family: 'poppins', sans-serif;
+        letter-spacing: normal;
+        font-size: large;
+    }
+}
+
+#slider2WetPercent {
+    margin-bottom: 0px;
+    color: #00000000;
+    text-align: center;
+    font-family: Impact, fantasy;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+    #slider2WetPercent {
+        font-family: 'poppins', sans-serif;
+        letter-spacing: normal;
+        font-size: large;
+    }
+}
+
+#slider3-value {
+    color: black;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+    #slider3-value {
+        font-family: 'poppins', sans-serif;
+        letter-spacing: normal;
+        font-size: large;
+    }
+}
+
+#wavFiles {
+    display: block;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    /* Add custom styles for the audio player */
+    color: #ffffff;
+    /* Change the color of the controls */
+    background-color: #000000;
+    /* Change the background color of the audio player */
+    font-size: 12px;
+    /* Increase the font size of the controls */
+    padding: 3px;
+    /* Add some padding around the controls */
+    text-align: center;
+}
+
+#downloadButton {
+    display: block;
+    margin: 0px auto;
+    border: 2px solid #808080;
+    border-radius: 8px;
+    /* Add custom styles for the audio player */
+    color: #ffffff;
+    /* Change the color of the controls */
+    background-color: #000000;
+    /* Change the background color of the audio player */
+    font-size: 16px;
+    /* Increase the font size of the controls */
+    padding: 3px;
+    /* Add some padding around the controls */
+    text-align: center;
+    box-shadow: 0 0 20px rgb(128, 128, 128);
+    letter-spacing: 4px;
+    font-family: Impact, fantasy;
+    width: 250px;
+    transition: all 0.1s ease;
+    margin-top: 0px;
+}
+
+@media (max-width: 500px) {
+    #downloadButton {
+        border-radius: 8px;
+        /* Add custom styles for the audio player */
+        padding: 2px;
+        /* Add some padding around the controls */
+        margin-top: 0px;
+        font-family: 'poppins', sans-serif;
+        letter-spacing: normal;
+        font-size: medium;
+    }
+}
+
+#downloadButton:active {
+    transform: scale(0.95);
+    color: #ffffff
+}
+
+#audioLength {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    #audioLength {
+        margin-top: 5px;
+        padding: 10px;
+    }
+}
